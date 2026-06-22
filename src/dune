@@ -5,6 +5,7 @@
  (name string_dict)
  (public_name string_dict)
  (libraries basement base)
+ (flags (:standard -w -69))
  (preprocess
   (pps ppx_compare ppx_hash -compare-require-explicit-locality))
  (js_of_ocaml
